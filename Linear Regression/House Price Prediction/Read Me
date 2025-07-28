@@ -19,7 +19,8 @@ It’s part of my machine learning journey — learning by doing real-world proj
 
 ## 💡 Project Overview
 
-This project uses the **Ames Housing dataset** (similar to the famous Kaggle House Prices competition). The goal is to train a regression model that can estimate house sale prices using various numerical and categorical features.
+This project uses the "Ames Housing dataset" (similar to the famous Kaggle House Prices competition).
+The goal is to train a regression model that can estimate house sale prices using various numerical and categorical features.
 
 -----------------------------------------------------------------------
 
@@ -31,7 +32,7 @@ This project uses the **Ames Housing dataset** (similar to the famous Kaggle Hou
 - Evaluated its performance using real metrics
 - Saved the model and results for reuse
 
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 ## 📊 Model Performance
 
@@ -41,9 +42,10 @@ After training, here's how well the model performed on the test set:
 - Root Mean Squared Error (RMSE): $20,956  
 - R² Score: 0.9304
 
-That means the model can explain over "93% of the variation" in house prices , not bad for a simple linear model!
+That means the model can explain over "93% of the variation" in house prices , 
+not bad for a simple linear model!
 
----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 ## 🖼️ Visualizations
 
@@ -55,7 +57,7 @@ I created a few visual plots to better understand the data, such as:
 
 📁 You can find them in the [`output/visualizations/`](output/visualizations) folder.
 
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 ## 📦 Requirements
 
