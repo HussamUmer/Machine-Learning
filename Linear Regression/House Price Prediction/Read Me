@@ -1,4 +1,4 @@
-# 🏡 House Price Prediction using Linear Regression
+🏡 House Price Prediction using Linear Regression
 
 This project is a beginner-friendly implementation of a **Linear Regression model** to predict house prices based on different features like area, neighborhood, overall quality, and more.
 
@@ -6,7 +6,7 @@ It’s part of my machine learning journey — learning by doing real-world proj
 
 ---------------------------------------------------------------------
 
-## 📂 What's Inside
+📂 What's Inside
 
 - `house_prediction.ipynb` — the full notebook with code, explanations, and results  
 - `train.csv` and `test.csv` — the dataset used for training and testing  
@@ -17,14 +17,14 @@ It’s part of my machine learning journey — learning by doing real-world proj
 
 -----------------------------------------------------------------------
 
-## 💡 Project Overview
+💡 Project Overview
 
 This project uses the "Ames Housing dataset" (similar to the famous Kaggle House Prices competition).
 The goal is to train a regression model that can estimate house sale prices using various numerical and categorical features.
 
 -----------------------------------------------------------------------
 
-## 🔍 What I Did
+🔍 What I Did
 
 - Cleaned and explored the data (EDA)
 - Visualized patterns and correlations
@@ -34,7 +34,7 @@ The goal is to train a regression model that can estimate house sale prices usin
 
 ------------------------------------------------------------------------
 
-## 📊 Model Performance
+📊 Model Performance
 
 After training, here's how well the model performed on the test set:
 
@@ -47,7 +47,7 @@ not bad for a simple linear model!
 
 ---------------------------------------------------------------------------
 
-## 🖼️ Visualizations
+🖼️ Visualizations
 
 I created a few visual plots to better understand the data, such as:
 
@@ -55,11 +55,11 @@ I created a few visual plots to better understand the data, such as:
 - Average House Price by Neighborhood**
 - Correlation Heatmap
 
-📁 You can find them in the [`output/visualizations/`](output/visualizations) folder.
+📁 You can find them in the "(output/visualizations)" folder.
 
 ------------------------------------------------------------------------------
 
-## 📦 Requirements
+📦 Requirements
 
 To run this project locally, make sure you have the following Python packages installed:
 
