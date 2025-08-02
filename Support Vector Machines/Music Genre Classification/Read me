@@ -48,9 +48,9 @@ This task is inherently complex, and classic ML struggles to separate overlappin
 
 🎼 Dataset Limitations
 ------------------------
-Genre overlap: Some clips have ambiguous or mixed genre traits.
-Mislabeling & repetition: GTZAN has known issues with repeated tracks and mislabels.
-Noisy clips: Some samples contain artifacts or poor recording quality.
+1. Genre overlap: Some clips have ambiguous or mixed genre traits.
+2. Mislabeling & repetition: GTZAN has known issues with repeated tracks and mislabels.
+3. Noisy clips: Some samples contain artifacts or poor recording quality.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -79,11 +79,20 @@ Here’s how this project could evolve:
 Because research is about the process, not just the number.
 This project shows:
 
-1. How far you can go with classic ML
+1. How far we can go with classic ML
 2. The limitations of traditional approaches
 3. A thoughtful analysis of model and data quality
 
 ------------------------------------------------------------------------------------------------------------
+
+🔗 Dataset Source
+===================
+This project uses the (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)  
+You can also download it from the official Marsyas website.
+
+⚠️ Note: The dataset is not included in this repository due to size constraints. Please download it manually
+from the link above and place it in the `Data/` folder.
+-------------------------------------------------------------------------------------------------------------
 
 ✅ Takeaway
 ============
