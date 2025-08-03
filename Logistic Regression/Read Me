@@ -25,7 +25,7 @@ binary (like yes/no or spam/ham). It models the probability that something belon
 ### Breast Cancer Classification
 ---------------------------------
     Goal: Diagnose if a tumor is malignant or benign.
-    Accuracy: 0.97%
+    Accuracy: 0.98%
     Dataset: Breast Cancer Wisconsin Dataset on Kaggle
 
 --------------------------------------------------------------------------------------------------------------------------
