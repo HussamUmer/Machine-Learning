@@ -1,1 +1,33 @@
+📁 Logistic Regression
+=======================
+=======================
+📌 What is Logistic Regression?
+================================
+Logistic Regression is one of the most beginner-friendly classification algorithms used when the outcome is
+binary (like yes/no or spam/ham). It models the probability that something belongs to a class.
+
+----------------------------------------------------------------------------------------------------------------------
+
+📊 Projects in This Folder:
+============================
+### Email Spam Detection
+-------------------------
+   Goal: Predict whether an email is spam or not.
+   Accuracy: 0.97%
+   Dataset: Spam Detection Dataset on Kaggle
+
+### Social Network Ads Classification
+--------------------------------------
+    Goal: Predict whether a user will purchase a product based on demographic data.
+    Accuracy: 0.89%
+    Dataset: Social Network Ads Dataset on Kaggle
+
+### Breast Cancer Classification
+---------------------------------
+    Goal: Diagnose if a tumor is malignant or benign.
+    Accuracy: 0.97%
+    Dataset: Breast Cancer Wisconsin Dataset on Kaggle
+
+--------------------------------------------------------------------------------------------------------------------------
+
 
