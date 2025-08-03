@@ -13,28 +13,28 @@ spam detection or language recognition.
 ### Email Spam Detection
 ------------------------
         Goal: Classify emails as spam or not.
-        Accuracy: 0.96%
+        Accuracy: 0.95%
         Dataset: SMS Spam Collection
                                    ----------------------------------------- 
 
 ### Fake News Detection
 ------------------------
         Goal: Detect if a news article is real or fake.
-        Accuracy: 0.98%
+        Accuracy: 0.93%
         Dataset: ISOT Fake News Dataset
                                     ------------------------------------------
 
 ### Sentiment Analysis
 -----------------------
         Goal: Classify product reviews as positive or negative.
-        Accuracy: 0.91%
+        Accuracy: 0.86%
         Dataset: Electronics Reviews Dataset
                                     ------------------------------------------
 
 ### Language Detection
 --------------------
         Goal: Identify the language of a text.
-        Accuracy: 0.98%
+        Accuracy: 0.94%
         Dataset: Language Detection Dataset
 
 -----------------------------------------------------------------------------------------------------------------------
