@@ -1,1 +1,37 @@
+📁 Support Vector Machine (SVM)
+================================
+================================
+📌 What is SVM?
+================
+Support Vector Machine is a powerful algorithm that tries to draw the best boundary (or line) that separates
+different classes. It’s great for both linear and non-linear classification tasks.
+
+------------------------------------------------------------------------------------------------------------------
+
+📊 Projects in This Folder:
+============================
+### Breast Cancer Classification
+---------------------------------
+      Goal: Detect whether a tumor is malignant or benign.
+      Accuracy: 0.97%
+      Dataset: Breast Cancer Dataset on Kaggle
+                                       -----------------------------------------
+
+### Face Mask Detection
+------------------------
+      Goal: Classify whether a person is wearing a face mask or not using image data.
+      Accuracy: 0.91%
+      Note: Training takes time due to 12K+ images.
+      Dataset: Face Mask Detection Dataset on Kaggle
+                                        ------------------------------------------
+
+### Music Genre Classification
+-------------------------------
+      Goal: Predict the genre of a music clip.
+      Accuracy: 0.63% (can be improved with advanced feature extraction or deep learning)
+      Dataset: GTZAN Genre Collection on Kaggle
+                                        --------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
