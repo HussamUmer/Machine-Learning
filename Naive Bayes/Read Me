@@ -1,1 +1,40 @@
+📁 Naive Bayes
+===============
+===============
+📌 What is Naive Bayes?
+========================
+This algorithm works on probability and Bayes' Theorem. It’s especially popular for text classification like
+spam detection or language recognition.
 
+------------------------------------------------------------------------------------------------------------------
+
+📊 Projects in This Folder:
+============================
+### Email Spam Detection
+------------------------
+        Goal: Classify emails as spam or not.
+        Accuracy: 0.96%
+        Dataset: SMS Spam Collection
+                                   ----------------------------------------- 
+
+### Fake News Detection
+------------------------
+        Goal: Detect if a news article is real or fake.
+        Accuracy: 0.98%
+        Dataset: ISOT Fake News Dataset
+                                    ------------------------------------------
+
+### Sentiment Analysis
+-----------------------
+        Goal: Classify product reviews as positive or negative.
+        Accuracy: 0.91%
+        Dataset: Electronics Reviews Dataset
+                                    ------------------------------------------
+
+### Language Detection
+--------------------
+        Goal: Identify the language of a text.
+        Accuracy: 0.98%
+        Dataset: Language Detection Dataset
+
+-----------------------------------------------------------------------------------------------------------------------
