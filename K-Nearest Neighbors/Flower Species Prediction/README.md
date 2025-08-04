@@ -1,13 +1,13 @@
-🌸 Iris Species Classification using K-Nearest Neighbors (KNN)
-==============================================================
+# 🌸 Iris Species Classification using K-Nearest Neighbors (KNN)
+
 Welcome! This project is all about using a simple yet powerful algorithm — K-Nearest Neighbors (KNN) — to classify
 one of nature's most iconic flowers: the iris. With just four features (like petal length and sepal width), we’ll 
 teach a machine to identify which species an iris belongs to.
 
 ------------------------------------------------------------------------------------------------------------------
 
-🧠 What is this project about?
-==============================
+## 🧠 What is this project about?
+
 We’re working with the classic Iris dataset — a staple in machine learning. Our goal is to build a model that can 
 classify iris flowers into one of the three species:
 --Setosa
@@ -19,8 +19,8 @@ is to others.
 
 -------------------------------------------------------------------------------------------------------------------
 
-🧪 What did we do?
-===================
+## 🧪 What did we do?
+
 Here’s the step-by-step journey:
 
 📊 Explored the dataset with beautiful and colorful EDA plots
@@ -31,8 +31,15 @@ Here’s the step-by-step journey:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-📈 Model Performance
-=====================
+## 💾 Dataset Used
+
+This is the dataset link:
+[Iris Species](https://www.kaggle.com/datasets/uciml/iris)
+
+----------------------------------------------------------------------------------------------------------------------
+
+## 📈 Model Performance
+
 The results? Honestly, they couldn’t be better:
 ✅ Accuracy: 100%
 
@@ -41,16 +48,16 @@ really well on clearly separable data.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-💾 How to Reuse the Model
-=========================
+## 💾 How to Reuse the Model
+
 We’ve also saved the model so it can be reused without retraining.
 
 "knn_iris_model.pkl"
 
 ----------------------------------------------------------------------------------------------------------------------
 
-🎯 Why this project matters
-===========================
+## 🎯 Why this project matters
+
 This project might be simple, but it showcases a complete ML pipeline:
 ** Clean data preprocessing
 ** Clear and insightful visualizations
