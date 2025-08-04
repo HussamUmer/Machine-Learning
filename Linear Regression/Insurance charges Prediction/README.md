@@ -24,6 +24,8 @@ The dataset contains real-world insurance data and includes:
 - Region of residence
 - Medical charges (target)
 
+Here is the dataset link:
+[Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 ------------------------------------------------------------------------------------------------------
 ## 🔍 Step-by-Step Approach
 
