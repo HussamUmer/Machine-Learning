@@ -1,4 +1,4 @@
-#🏦 Loan Approval Prediction using Decision Tree
+# 🏦 Loan Approval Prediction using Decision Tree
 
 Welcome to the Loan Prediction Project, where we take raw applicant data and build a model to 
 predict whether a loan will be approved or not. If you've ever wondered how banks make these 
