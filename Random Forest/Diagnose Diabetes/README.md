@@ -49,15 +49,7 @@ We used the Random Forest algorithm because it's:
 
 After training the model on an 80/20 train-test split, here are the results:
 
-✅ Accuracy Score: ~77.9%
-📄 Classification Report:
-
-    Class	           Precision	Recall	F1-Score	Support
-0 (Non-Diabetic)	    0.80	     0.88	   0.84	     100
-1 (Diabetic)	        0.73	     0.59	   0.65	     54
-
-Macro Avg F1-Score: 0.75
-Weighted Avg F1-Score: 0.77
+✅ Accuracy Score: 77.9%
 
 ------------------------------------------------------------------------------------------------------------------------
 
