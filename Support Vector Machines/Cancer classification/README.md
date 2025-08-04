@@ -34,8 +34,8 @@ Dataset used: Breast Cancer Wisconsin Diagnostic Dataset
 
 Target classes:
 ---------------
--0: Malignant
--1: Benign
+- 0: Malignant
+- 1: Benign
 
 Dataset link:[Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
@@ -70,11 +70,6 @@ These visuals helped us identify patterns and understand how features differ acr
 
 - ✅ Accuracy Score: 0.9736
 
-- 📄 Classification Report:
-
-   Class	      Precision	Recall	F1-Score
-0 (Malignant)	  0.95	    0.98	  0.96
-1 (Benign)	     0.99	    0.97	  0.98
 
 - 💯 Overall accuracy: 97.36%
 - ✅ Confusion Matrix: Visualized with seaborn to show true positives and false negatives clearly.
