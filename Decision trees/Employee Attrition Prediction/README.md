@@ -14,6 +14,11 @@ for this task.
 
 ---------------------------------------------------------------------------------------------------------------------
 
+## Dataset Used:
+
+Here is the dataset link:
+[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+
 🔍 What This Project Covers
 ============================
 📦 Loading and understanding the IBM dataset
