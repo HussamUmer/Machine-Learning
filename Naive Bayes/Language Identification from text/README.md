@@ -15,6 +15,13 @@ We used a dataset titled "Language Detection", which includes thousands of label
 
 -------------------------------------------------------------------------------------------------------------------------
 
+## Dataset Used
+
+This is the link to dataset:
+[Language Detection](https://www.kaggle.com/datasets/basilb2s/language-detection)
+
+-------------------------------------------------------------------------------------------------------------------------
+
 ## 🧠 Tech Stack Used
 
 - 🐍 Python
@@ -43,13 +50,13 @@ These insights helped ensure balanced representation and gave us a feel for mult
 
         Lowercased all words
         Removed punctuation, digits, links, and extra spaces
-            ---------------------------------
+            
 - Label encoding:
 
         Converted each language label into a numerical form
         TF-IDF Vectorization:
         Transformed raw sentences into numerical vectors based on term importance across the dataset
-             ----------------------------------
+        
 - Train-Test Split:
 
          Used an 80/20 split to train and validate the model fairly
@@ -69,15 +76,6 @@ classification tasks like this one.
 ---------------------
 The model performed remarkably well, even across less-represented languages.
 
-### 📄 Classification Report:
--------------------------
-Language	Precision	Recall	F1-score
-English	   0.75	    0.99	  0.85
-French	   0.98	    0.97	  0.98
-Hindi	     1.00	    0.92	  0.96
-Spanish	   0.95	    0.96	  0.95
-...	       ...	    ...	    ...
-
 Overall, languages with fewer samples (like Hindi, Tamil, Turkish) still performed well, showing the robustness
 of our pipeline.
 
@@ -92,19 +90,19 @@ later to make predictions on new text samples without retraining.
 
 ## 🤔 Challenges Faced
 
-⚠️ Class imbalance: Some languages had far fewer samples than others. We tackled this using stratified splitting
+- ⚠️ Class imbalance: Some languages had far fewer samples than others. We tackled this using stratified splitting
 and TF-IDF to reduce sensitivity to size.
-🔡 Mixed scripts: Languages using non-Latin characters (e.g., Arabic, Hindi) required careful cleaning to retain
+- 🔡 Mixed scripts: Languages using non-Latin characters (e.g., Arabic, Hindi) required careful cleaning to retain
 meaningful structure.
-💬 Very short sentences: These were hard to classify, especially if the vocabulary was sparse or ambiguous.
+- 💬 Very short sentences: These were hard to classify, especially if the vocabulary was sparse or ambiguous.
 
 ---------------------------------------------------------------------------------------------------------------------
 
 ## 💡 What We Learned
 
 - Naive Bayes + TF-IDF = a surprisingly strong baseline for language detection
- Even with limited samples, proper preprocessing and vectorization can achieve excellent accuracy
- Language detection is a practical application of NLP, with real-world use cases in chatbots, browsers, and 
+- Even with limited samples, proper preprocessing and vectorization can achieve excellent accuracy
+- Language detection is a practical application of NLP, with real-world use cases in chatbots, browsers, and 
 translation tools
 
 -----------------------------------------------------------------------------------------------------------------------
