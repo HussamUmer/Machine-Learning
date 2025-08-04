@@ -17,12 +17,12 @@ We used a dataset titled "Language Detection", which includes thousands of label
 
 ## 🧠 Tech Stack Used
 
-🐍 Python
-📊 Pandas, NumPy – for data wrangling
-📈 Matplotlib, Seaborn – for visualizations
-🧹 re (regex) – for cleaning text
-🧠 Scikit-learn – for vectorization and modeling
-💾 Joblib – to save the model
+- 🐍 Python
+- 📊 Pandas, NumPy – for data wrangling
+- 📈 Matplotlib, Seaborn – for visualizations
+- 🧹 re (regex) – for cleaning text
+- 🧠 Scikit-learn – for vectorization and modeling
+- 💾 Joblib – to save the model
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -40,24 +40,24 @@ These insights helped ensure balanced representation and gave us a feel for mult
 ## ⚙️ Preprocessing Steps
 
 - Text cleaning:
--------------------
+
         Lowercased all words
         Removed punctuation, digits, links, and extra spaces
             ---------------------------------
 - Label encoding:
--------------------
+
         Converted each language label into a numerical form
         TF-IDF Vectorization:
         Transformed raw sentences into numerical vectors based on term importance across the dataset
              ----------------------------------
 - Train-Test Split:
-----------------------
+
          Used an 80/20 split to train and validate the model fairly
 
 ----------------------------------------------------------------------------------------------------------------
 
 ## 🧪 Model Training
-==================
+
 We used the Multinomial Naive Bayes classifier, which is fast, interpretable, and works especially well for text
 classification tasks like this one.
 
