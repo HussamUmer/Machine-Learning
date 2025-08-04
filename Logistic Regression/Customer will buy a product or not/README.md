@@ -1,4 +1,4 @@
-🛍️ Purchase Prediction Classifier (Logistic Regression)
+# 🛍️ Purchase Prediction Classifier (Logistic Regression)
 
 Welcome! This project uses Logistic Regression to predict whether a person is likely to purchase
 a product based on simple features like age, gender, and estimated salary. Think of it as a helpful
@@ -6,7 +6,7 @@ assistant for marketing teams deciding who to target with ads or promotions.
 
 -------------------------------------------------------------------------------------------------------
 
-🔍 What’s Inside?
+## 🔍 What’s Inside?
 
 This notebook takes you through the entire process of building a binary classifier from scratch using 
 structured data. Here’s what’s covered:
@@ -30,7 +30,13 @@ don’t purchase, with room to improve on recall for purchasers — great as a b
 
 ----------------------------------------------------------------------------------------------------
 
-📦 How to Run This
+## Dataset Used:
+This is the dataset link:
+[Social Network Ads](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
+
+---
+
+## 📦 How to Run This
 
 -Clone this repository or download the notebook
 -Make sure Python is installed (version 3.7+ recommended)
@@ -40,7 +46,7 @@ don’t purchase, with room to improve on recall for purchasers — great as a b
 
 ----------------------------------------------------------------------------------------------------
 
-✅ Why This Project Matters
+## ✅ Why This Project Matters
 This is a clean, beginner-friendly machine learning project that demonstrates how basic models like 
 logistic regression can still provide business-relevant insights. With proper visuals, well-commented code, 
 and clear metrics — it's a great addition to your ML portfolio.
