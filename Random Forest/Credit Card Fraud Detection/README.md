@@ -13,26 +13,26 @@ are extremely rare.
 
 ## 📁 Dataset Summary
 
-- Name: Credit Card Fraud Detection
+Name: Credit Card Fraud Detection
 Size: 150MB
 Samples: 284,807 transactions
 Features: 30 numerical features (V1–V28 are PCA-transformed)
 
-- Label:
+Label:
 
-0 = Genuine transaction
-1 = Fraudulent transaction
+  0 = Genuine transaction
+  1 = Fraudulent transaction
 
-- Class Imbalance:
+Class Imbalance:
 
-99.8% are genuine
-0.2% are fraud
+  99.8% are genuine
+  0.2% are fraud
 
 ----------------------------------------------------------------------------------------------------------------------
 
 ## 🔗 Dataset on Kaggle
 
-[]()
+[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ----------------------------------------------------------------------------------------------------------------------
 
