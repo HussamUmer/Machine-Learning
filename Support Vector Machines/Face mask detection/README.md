@@ -1,13 +1,13 @@
-😷 Face Mask Detection using Support Vector Machine (SVM)
-==========================================================
+# 😷 Face Mask Detection using Support Vector Machine (SVM)
+
 This project focuses on building a binary image classifier to detect whether a person is wearing a mask or
 not using a Support Vector Machine (SVM) model. We used the "Face Mask Detection ~12K Images Dataset", which
 contains over 12,000 labeled images, organized into train, validation, and test directories.
 
 ---------------------------------------------------------------------------------------------------------------
 
-🧠 Objective
-=============
+## 🧠 Objective
+
 The goal was to train a machine learning model that can automatically classify images of people as:
     1. With Mask 😷
     2. Without Mask 😐
@@ -16,8 +16,8 @@ This task is especially relevant in public safety contexts like health monitorin
 
 -----------------------------------------------------------------------------------------------------------------
 
-📁 Dataset Overview
-====================
+## 📁 Dataset Overview
+
 The dataset contains 12,000+ images distributed across 3 directories:
   1. train/
   2. validation/
@@ -34,8 +34,8 @@ especially without a GPU.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-🛠️ Project Workflow
-=====================
+## 🛠️ Project Workflow
+
 1. Data Loading & Preprocessing
 --------------------------------
     # Loaded the image data from folders using ImageDataGenerator.
