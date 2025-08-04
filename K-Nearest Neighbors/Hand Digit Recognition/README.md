@@ -27,6 +27,8 @@ handwritten digit. The goal is to train a model that can accurately identify the
 Here is the dataset link:
 [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
 
+---------------------------------------------------------------------------------------------------------------------------
+
 ## 📊 Model Performance
 
 The KNN classifier performed exceptionally well on the validation data.
