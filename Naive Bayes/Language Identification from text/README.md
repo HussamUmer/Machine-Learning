@@ -1,13 +1,13 @@
-🌍 Language Detection using Naive Bayes
-========================================
+# 🌍 Language Detection using Naive Bayes
+
 Welcome to this fun and insightful machine learning project, where we teach a computer to detect the language
 of a given text snippet! This model can identify 17 different languages using simple text samples — from English
 to Malayalam to Turkish.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-🚀 Project Overview
-====================
+## 🚀 Project Overview
+
 In this project, we built a multiclass text classification system that predicts the language of a sentence. It’s powered
 by the Naive Bayes algorithm and uses TF-IDF vectorization to understand the significance of words.
 
@@ -15,8 +15,8 @@ We used a dataset titled "Language Detection", which includes thousands of label
 
 -------------------------------------------------------------------------------------------------------------------------
 
-🧠 Tech Stack Used
-===================
+## 🧠 Tech Stack Used
+
 🐍 Python
 📊 Pandas, NumPy – for data wrangling
 📈 Matplotlib, Seaborn – for visualizations
@@ -26,8 +26,8 @@ We used a dataset titled "Language Detection", which includes thousands of label
 
 --------------------------------------------------------------------------------------------------------------------------
 
-📊 Exploratory Data Analysis (EDA)
-===================================
+## 📊 Exploratory Data Analysis (EDA)
+
 To better understand the dataset, we explored:
 
 ✅ Distribution of languages (bar chart)
@@ -37,39 +37,39 @@ These insights helped ensure balanced representation and gave us a feel for mult
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Preprocessing Steps
-=======================
--** Text cleaning:
+## ⚙️ Preprocessing Steps
+
+- Text cleaning:
 -------------------
         Lowercased all words
         Removed punctuation, digits, links, and extra spaces
             ---------------------------------
--** Label encoding:
+- Label encoding:
 -------------------
         Converted each language label into a numerical form
         TF-IDF Vectorization:
         Transformed raw sentences into numerical vectors based on term importance across the dataset
              ----------------------------------
--** Train-Test Split:
+- Train-Test Split:
 ----------------------
          Used an 80/20 split to train and validate the model fairly
 
 ----------------------------------------------------------------------------------------------------------------
 
-🧪 Model Training
+## 🧪 Model Training
 ==================
 We used the Multinomial Naive Bayes classifier, which is fast, interpretable, and works especially well for text
 classification tasks like this one.
 
 -----------------------------------------------------------------------------------------------------------------
 
-📈 Model Performance
-=====================
-✅ Accuracy: 94.63%
+## 📈 Model Performance
+
+### ✅ Accuracy: 94.63%
 ---------------------
 The model performed remarkably well, even across less-represented languages.
 
-📄 Classification Report:
+### 📄 Classification Report:
 -------------------------
 Language	Precision	Recall	F1-score
 English	   0.75	    0.99	  0.85
@@ -83,15 +83,15 @@ of our pipeline.
 
 -----------------------------------------------------------------------------------------------------------------
 
-📦 Saving the Model
-====================
+## 📦 Saving the Model
+
 To make reuse easy, we saved both the trained model and the TF-IDF vectorizer using joblib. These can be loaded
 later to make predictions on new text samples without retraining.
 
 ------------------------------------------------------------------------------------------------------------------
 
-🤔 Challenges Faced
-====================
+## 🤔 Challenges Faced
+
 ⚠️ Class imbalance: Some languages had far fewer samples than others. We tackled this using stratified splitting
 and TF-IDF to reduce sensitivity to size.
 🔡 Mixed scripts: Languages using non-Latin characters (e.g., Arabic, Hindi) required careful cleaning to retain
@@ -100,11 +100,11 @@ meaningful structure.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-💡 What We Learned
-===================
--** Naive Bayes + TF-IDF = a surprisingly strong baseline for language detection
--** Even with limited samples, proper preprocessing and vectorization can achieve excellent accuracy
--** Language detection is a practical application of NLP, with real-world use cases in chatbots, browsers, and 
+## 💡 What We Learned
+
+- Naive Bayes + TF-IDF = a surprisingly strong baseline for language detection
+ Even with limited samples, proper preprocessing and vectorization can achieve excellent accuracy
+ Language detection is a practical application of NLP, with real-world use cases in chatbots, browsers, and 
 translation tools
 
 -----------------------------------------------------------------------------------------------------------------------
