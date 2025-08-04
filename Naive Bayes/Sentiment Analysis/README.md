@@ -37,35 +37,35 @@ This transformation helps train the model to focus on overall satisfaction rathe
 
 ## 🔁 Project Workflow
 
-- Data Loading & Cleaning
-       - Removed missing entries
-       - Renamed columns for clarity
+1. Data Loading & Cleaning
+   - Removed missing entries
+   - Renamed columns for clarity
                    
-- Sentiment Labeling
-        - Converted numeric ratings to binary sentiment labels (positive/negative)
+2.  Sentiment Labeling
+   - Converted numeric ratings to binary sentiment labels (positive/negative)
                     
-- Text Preprocessing
-         - Lowercased the text
-         - Removed URLs, numbers, punctuation, and extra whitespace
+3. Text Preprocessing
+   - Lowercased the text
+   - Removed URLs, numbers, punctuation, and extra whitespace
                     
-- EDA (Exploratory Data Analysis)
-         - Plotted sentiment distribution (revealed strong class imbalance)
-         - Visualized review length distribution
+3. EDA (Exploratory Data Analysis)
+   - Plotted sentiment distribution (revealed strong class imbalance)
+   - Visualized review length distribution
                       
-- Train/Test Split
-          - Used an 80/20 split with stratification to maintain label ratios
+4. Train/Test Split
+   - Used an 80/20 split with stratification to maintain label ratios
                        
-- Feature Engineering
-          - Used TF-IDF vectorization to convert text into feature vectors
+5. Feature Engineering
+  - Used TF-IDF vectorization to convert text into feature vectors
                        
-- Model Training
-          - Trained a Multinomial Naive Bayes classifier on the TF-IDF vectors
+6. Model Training
+   - Trained a Multinomial Naive Bayes classifier on the TF-IDF vectors
                           
-- Evaluation & Visualization
-          - Accuracy Score: 86.96%
-          - F1-Score (Positive class): 0.92
+7. Evaluation & Visualization
+   - Accuracy Score: 86.96%
+   - F1-Score (Positive class): 0.92
                            
-- Confusion matrix visualization
+8. Confusion matrix visualization
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -95,23 +95,23 @@ This transformation helps train the model to focus on overall satisfaction rathe
 
 We encountered a few hurdles during this project:
 
-- Labeling Confusion
+1. Labeling Confusion
 
 Initially, there was an attempt to rename the dataset's columns with df.columns = ['review', 'sentiment'], 
 which failed because the dataset had more than two columns.
   - ✅ Fixed by selecting only the required columns explicitly.
 
-- Missing Columns in Plotting
+2. Missing Columns in Plotting
 
 Tried plotting a countplot on a column that didn’t exist (review), which threw a KeyError.
   - ✅ Fixed by double-checking column names and ensuring the correct label column was passed.
 
-- Severe Class Imbalance
+3. Severe Class Imbalance
 
 Majority of reviews were positive, which led to poor performance on the minority (negative) class.
   - ✅ Acknowledged but not yet resolved. Future improvement could include oversampling or SMOTE to balance classes.
 
-- Text Processing Errors
+4. Text Processing Errors
 
 Some entries were missing or malformed (e.g., non-string values).
   - ✅ Solved by type casting and defensive coding during cleaning.
