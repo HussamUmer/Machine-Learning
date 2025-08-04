@@ -56,7 +56,7 @@ This transformation helps train the model to focus on overall satisfaction rathe
    - Used an 80/20 split with stratification to maintain label ratios
                        
 5. Feature Engineering
-  - Used TF-IDF vectorization to convert text into feature vectors
+   - Used TF-IDF vectorization to convert text into feature vectors
                        
 6. Model Training
    - Trained a Multinomial Naive Bayes classifier on the TF-IDF vectors
