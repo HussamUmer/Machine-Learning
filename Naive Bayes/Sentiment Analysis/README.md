@@ -99,7 +99,7 @@ We encountered a few hurdles during this project:
 
 Initially, there was an attempt to rename the dataset's columns with df.columns = ['review', 'sentiment'], 
 which failed because the dataset had more than two columns.
-✅ Fixed by selecting only the required columns explicitly.
+  -- ✅ Fixed by selecting only the required columns explicitly.
 
 - Missing Columns in Plotting
 
