@@ -73,7 +73,7 @@ especially without a GPU.
             Class	      Precision	 Recall	F1-Score
            ---------    ---------- ------- ----------
           With Mask	      0.94	     0.88	  0.91
-          Without Mask	  0.89	     0.94	  0.92
+          Without Mask	 0.89	   0.94	 0.92
 
 The model performs very well on both classes, with slightly better recall for "Without Mask" and better precision
 for "With Mask".
