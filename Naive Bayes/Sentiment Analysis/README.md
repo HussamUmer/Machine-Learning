@@ -41,7 +41,7 @@ This transformation helps train the model to focus on overall satisfaction rathe
    - Removed missing entries
    - Renamed columns for clarity
                    
-2.  Sentiment Labeling
+2. Sentiment Labeling
    - Converted numeric ratings to binary sentiment labels (positive/negative)
                     
 3. Text Preprocessing
