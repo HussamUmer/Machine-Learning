@@ -1,7 +1,7 @@
-💳 Credit Card Fraud Detection using Random Forest
-===================================================
-🧠 Overview
-============
+# 💳 Credit Card Fraud Detection using Random Forest
+
+## 🧠 Overview
+
 This project focuses on detecting fraudulent credit card transactions using a Random Forest Classifier. The dataset
 contains anonymized features of transactions made by European cardholders over two days. Due to the sensitive nature
 of financial data, features such as transaction ID and user information are not included.
@@ -11,24 +11,28 @@ are extremely rare.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-📁 Dataset Summary
-===================
-Name: Credit Card Fraud Detection
-Size: ~150MB
+## 📁 Dataset Summary
+
+- Name: Credit Card Fraud Detection
+Size: 150MB
 Samples: 284,807 transactions
 Features: 30 numerical features (V1–V28 are PCA-transformed)
 
-Label:
--------
+- Label:
+
 0 = Genuine transaction
 1 = Fraudulent transaction
 
-Class Imbalance:
------------------
-~99.8% are genuine
-~0.2% are fraud
+- Class Imbalance:
 
-🔗 Dataset on Kaggle
+99.8% are genuine
+0.2% are fraud
+
+----------------------------------------------------------------------------------------------------------------------
+
+## 🔗 Dataset on Kaggle
+
+[]()
 
 ----------------------------------------------------------------------------------------------------------------------
 
