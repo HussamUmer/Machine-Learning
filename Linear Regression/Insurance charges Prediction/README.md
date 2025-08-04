@@ -1,18 +1,18 @@
-### 🏥 Medical Insurance Cost Prediction
+# 🏥 Medical Insurance Cost Prediction
 
 This project predicts a person's annual medical insurance charges based on factors like their age,
 BMI, smoking habits, and more.
 
 ---------------------------------------------------------------------------------------------------
 
-🧠 What’s the Idea?
+## 🧠 What’s the Idea?
 
 Healthcare costs are rising every day, and insurance companies need smarter tools to estimate future expenses.
 This project builds a simple yet solid linear regression model to predict these insurance costs,
 giving us a glimpse into how data and ML are reshaping real-world decision-making.
 
 ----------------------------------------------------------------------------------------------------
-📦 Dataset Info
+## 📦 Dataset Info
 
 The dataset contains real-world insurance data and includes:
 
@@ -25,7 +25,7 @@ The dataset contains real-world insurance data and includes:
 - Medical charges (target)
 
 ------------------------------------------------------------------------------------------------------
-🔍 Step-by-Step Approach
+## 🔍 Step-by-Step Approach
 
 1. Exploratory Data Analysis (EDA)
 
@@ -59,7 +59,7 @@ Here’s how the model performed:
 Not too bad for a linear model.
 
 -----------------------------------------------------------------------------------------------------
-📈 Visuals Matter
+## 📈 Visuals Matter
 
 I’ve added several clean and colorful plots:
 
@@ -72,7 +72,7 @@ These help make sense of the patterns and model behavior.
 
 ------------------------------------------------------------------------------------------------------
 
-🧪 Future Work
+## 🧪 Future Work
 
 - Try regularized models (Lasso, Ridge)
 - Use XGBoost or Random Forests for performance boost
