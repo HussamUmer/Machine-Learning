@@ -1,0 +1,60 @@
+# 📩 Email Spam Classifier (Logistic Regression)
+
+Welcome! This is a simple but effective **email spam detection** project built using **Logistic Regression**. The goal? To train a machine to tell whether a message is spam or not — because nobody likes to be tricked into clicking on "You’ve won $1,000,000!" 😉
+
+---
+
+## 🔍 What’s Inside?
+
+This project walks through the full journey from raw text messages to a trained model that can classify them as **spam** or **ham** (non-spam). It includes:
+
+- 💬 **Text preprocessing** using Bag of Words
+- 📊 **Exploratory Data Analysis** (visuals included)
+- 🧠 **Model training** using logistic regression
+- 🧪 **Evaluation metrics** (accuracy, precision, recall, F1-score)
+- 🔐 Optional: Save the model and vectorizer for later use
+
+---
+
+## Dataset Used :
+Here is the link of dataset we used:
+[SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+
+---
+
+## 🧠 Model Performance
+
+After training and testing, here’s how our model performed on unseen data:
+
+- **Accuracy:** 97.76%
+- **Precision (Spam):** 99%
+- **Recall (Spam):** 84%
+- **F1-Score (Spam):** 91%
+
+Not bad, right? Especially considering the simplicity of the algorithm!
+
+---
+
+## 📦 How to Run This
+
+1. Clone this repository
+2. Make sure Python is installed
+3. Install the requirements:
+   
+   pip install -r requirements.txt
+
+---
+
+## 💡 Why Logistic Regression?
+Logistic Regression is a classic go-to for binary classification problems. It’s simple, interpretable, and surprisingly powerful — a great starting point before exploring more complex models like Naive Bayes or transformers.
+
+---
+
+## 📬 Final Thoughts
+Spam detection is one of the OGs of machine learning problems, and for good reason — it's practical, relevant, and packed with NLP challenges. If you're just getting into classification or natural language processing, this is a perfect playground.
+
+---
+
+If you liked this project or found it helpful, feel free to ⭐ the repo or fork it to build something even cooler!
+
+---
