@@ -1,5 +1,5 @@
 # 🧠 Handwritten Digit Recognition using KNN
-===========================================
+
 This project focuses on recognizing handwritten digits (0 through 9) using the K-Nearest Neighbors (KNN) algorithm.
 The dataset used is the popular Digit Recognizer dataset, where each image is a 28x28 pixel grayscale image of a 
 handwritten digit. The goal is to train a model that can accurately identify these digits — just like a human would.
@@ -7,7 +7,7 @@ handwritten digit. The goal is to train a model that can accurately identify the
 ----------------------------------------------------------------------------------------------------------------------
 
 ## 🔍 Project Overview
-====================
+
 - We begin by loading the dataset, visualizing sample digits, and then performing basic exploratory data analysis. 
 - After preprocessing and splitting the labeled training data, we train a KNN classifier to recognize the digits. 
 - Finally, the model is evaluated on a held-out test set and used to make predictions on a separate, unlabeled test dataset.
@@ -15,7 +15,7 @@ handwritten digit. The goal is to train a model that can accurately identify the
 ---------------------------------------------------------------------------------------------------------------------------
 
 ## ✨ What’s inside
-=================
+
 - EDA & Visualization: We displayed a few random digit images to get a feel of the data.
 -  Modeling with KNN: The KNN classifier was trained using an 80/20 train-test split.
 - Evaluation on test set: Accuracy and performance were measured using precision, recall, and F1-score.
@@ -28,7 +28,7 @@ Here is the dataset link:
 [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
 
 ## 📊 Model Performance
-=====================
+
 The KNN classifier performed exceptionally well on the validation data.
 - Overall accuracy: 96.67%
 
@@ -41,7 +41,7 @@ Here’s a quick summary of how the model did on each digit:
 ---------------------------------------------------------------------------------------------------------------------------
 
 ## 🖼️ Test Set Prediction & Visualization
-=======================================
+
 After training, the model was used to predict on a separate test dataset (without labels). We visualized a few of these
 images along with the model’s predicted digit. These visuals give a clear look at the model's ability to interpret previously
 unseen handwritten digits.
@@ -49,10 +49,11 @@ unseen handwritten digits.
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## ✅ Why this project matters
-============================
+
 This project shows how simple yet powerful classical machine learning algorithms like KNN can be when applied correctly,
 even on image data. While deep learning is often used for image tasks, this project demonstrates that with thoughtful 
 preprocessing and tuning, KNN can achieve nearly perfect results on clean, well-labeled data.
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 
