@@ -1,4 +1,4 @@
-🧬 Breast Cancer Tumor Classification (Logistic Regression)
+# 🧬 Breast Cancer Tumor Classification (Logistic Regression)
 
 Welcome to this simple but powerful machine learning project where we tackle a very real problem:
 classifying breast tumors as benign or malignant based on medical imaging features. Using Logistic 
@@ -6,7 +6,7 @@ Regression, we’ve built a model that can make these predictions with impressiv
 
 -----------------------------------------------------------------------------------------------------
 
-🔍 What’s this project about?
+## 🔍 What’s this project about?
 
 We used the popular Wisconsin Breast Cancer dataset, which includes measurements from digitized images 
 of breast mass samples. Each sample comes with features like radius, texture, perimeter, and area — and a 
@@ -21,7 +21,11 @@ This project walks through the entire process:
 
 -------------------------------------------------------------------------------------------------------
 
-📈 Model Performance
+## Dataset Used:
+Here is the dataset link:
+[Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+
+## 📈 Model Performance
 
 After training and testing the model on unseen data, here’s how well it performed:
 Accuracy: 98.25%
@@ -34,7 +38,7 @@ have serious implications.
 
 --------------------------------------------------------------------------------------------------------
 
-🧠 Why Logistic Regression?
+## 🧠 Why Logistic Regression?
 
 Logistic Regression may be simple, but it’s surprisingly powerful — especially when:
 -The data is clean and linearly separable
@@ -45,7 +49,7 @@ reliable solution.
 
 ----------------------------------------------------------------------------------------------------------
 
-📊 Visual Insights
+## 📊 Visual Insights
 
 We didn’t just throw data at a model. We explored:
 🔥 Feature correlations using a heatmap
@@ -55,7 +59,7 @@ We didn’t just throw data at a model. We explored:
 
 ------------------------------------------------------------------------------------------------------------
 
-💾 Model Reusability
+## 💾 Model Reusability
 
 To make this project production-friendly, we saved the trained model and scaler using joblib. This makes it super
 easy to plug into any app or interface that needs to make fast predictions on new data.
