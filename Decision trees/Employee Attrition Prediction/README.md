@@ -66,7 +66,7 @@ ensemble models, or cost-sensitive learning.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-Note#
+Note
 =====
 There are one visual that is not shown in the notebook because it can't be shown here but wwas shown while wworking on it
 in google colab.So,try this in colab,and it will work perfectly fine.
