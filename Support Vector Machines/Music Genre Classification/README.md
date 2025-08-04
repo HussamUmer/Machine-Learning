@@ -1,11 +1,11 @@
-🎵 Music Genre Classification using SVM
-========================================
+# 🎵 Music Genre Classification using SVM
+
 A baseline ML approach on the GTZAN Dataset with real-world challenges and reflections
 
 -----------------------------------------------------------------------------------------------------------
 
-🧠 Project Overview
-====================
+## 🧠 Project Overview
+
 This project explores music genre classification using traditional machine learning techniques. We use the
 GTZAN Music Genre Dataset and apply a Support Vector Machine (SVM) classifier on MFCC features extracted 
 from audio files.
@@ -13,16 +13,16 @@ from audio files.
 While deep learning is the go-to for modern audio tasks, this project intentionally takes a step back to 
 evaluate how far classic ML can go in a genre classification task—and what its limits are.
 
-📂 Dataset: GTZAN Music Genre Dataset
-📁 10 Genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock
-🎧 1,000 audio clips: 100 per genre
-⏱️ Each clip: 30 seconds
-📦 Format: .wav
+- 📂 Dataset: GTZAN Music Genre Dataset
+- 📁 10 Genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock
+- 🎧 1,000 audio clips: 100 per genre
+- ⏱️ Each clip: 30 seconds
+- 📦 Format: .wav
 
 --------------------------------------------------------------------------------------------------------------
 
-🛠️ What This Project Does
-===========================
+## 🛠️ What This Project Does
+
 1. Extracts MFCC (Mel Frequency Cepstral Coefficients) from each audio file
 2. Builds a Support Vector Machine classifier
 3. Evaluates the model using accuracy and a classification report
@@ -30,52 +30,52 @@ evaluate how far classic ML can go in a genre classification task—and what its
 
 --------------------------------------------------------------------------------------------------------------
 
-🧪 Model Evaluation
-====================
-✅ Accuracy Score: 0.6300
+## 🧪 Model Evaluation
 
-⚠️ Performance varies significantly across genres. Some genres (like metal and hiphop) are classified well,
+- ✅ Accuracy Score: 0.6300
+
+- ⚠️ Performance varies significantly across genres. Some genres (like metal and hiphop) are classified well,
 while others like rock are much harder to separate.
 
 -----------------------------------------------------------------------------------------------------------------
 
-⚠️ Challenges Faced
-=====================
-📉 Accuracy Ceiling
----------------------
+## ⚠️ Challenges Faced
+
+#### 📉 Accuracy Ceiling
+
 63% accuracy is decent for a baseline SVM on raw MFCCs but not competitive with state-of-the-art.
 This task is inherently complex, and classic ML struggles to separate overlapping acoustic patterns.
 
-🎼 Dataset Limitations
-------------------------
+#### 🎼 Dataset Limitations
+
 1. Genre overlap: Some clips have ambiguous or mixed genre traits.
 2. Mislabeling & repetition: GTZAN has known issues with repeated tracks and mislabels.
 3. Noisy clips: Some samples contain artifacts or poor recording quality.
 
 --------------------------------------------------------------------------------------------------------------
 
-🧠 Model Limitations
-=====================
+## 🧠 Model Limitations
+
 1. SVMs are linear or kernel-based and don’t capture time-dependent patterns well.
 2. MFCCs reduce audio to a simplified representation, losing temporal richness.
 3. No use of spectrograms or CNNs, which tend to perform better in music/audio tasks.
 
 --------------------------------------------------------------------------------------------------------------
 
-💡 Future Improvements
-=======================
+## 💡 Future Improvements
+
 Here’s how this project could evolve:
 
-🔁 Use spectrograms + Convolutional Neural Networks (CNNs)
-🎵 Include tempo, chroma, spectral contrast features for richer input
-🤖 Try deep learning architectures like CNN-LSTM or transformers
-📊 Perform data augmentation to improve robustness
-🧽 Clean the dataset: filter duplicates, validate labels
+- 🔁 Use spectrograms + Convolutional Neural Networks (CNNs)
+- 🎵 Include tempo, chroma, spectral contrast features for richer input
+- 🤖 Try deep learning architectures like CNN-LSTM or transformers
+- 📊 Perform data augmentation to improve robustness
+- 🧽 Clean the dataset: filter duplicates, validate labels
 
 ----------------------------------------------------------------------------------------------------------------
 
-🔍 Why Share a 63% Model?
-==========================
+## 🔍 Why Share a 63% Model?
+
 Because research is about the process, not just the number.
 This project shows:
 
@@ -85,21 +85,21 @@ This project shows:
 
 ------------------------------------------------------------------------------------------------------------
 
-🔗 Dataset Source
-===================
-This project uses the (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)  
+## 🔗 Dataset Source
+
+This project uses the [GTZAN Dataset - Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 You can also download it from the official Marsyas website.
 
-⚠️ Note: The dataset is not included in this repository due to size constraints. Please download it manually
+- ⚠️ Note: The dataset is not included in this repository due to size constraints. Please download it manually
 from the link above and place it in the `Data/` folder.
 -------------------------------------------------------------------------------------------------------------
 
-✅ Takeaway
-============
+## ✅ Takeaway
+
 Genre classification is tough — especially with messy real-world data and classic models.
 But building this from the ground up gives us a strong foundation to experiment, learn, and grow.
 
-📌 This project is a baseline — not the finish line.
+- 📌 This project is a baseline — not the finish line.
 
 -------------------------------------------------------------------------------------------------------------------
 
