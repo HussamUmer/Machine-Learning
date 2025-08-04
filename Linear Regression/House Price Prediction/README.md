@@ -77,5 +77,29 @@ These help us understand the data and the model's behavior beyond just metrics.
 
 ---
 
-## 📁 Folder Structure
+
+---
+
+## 🤝 Credits
+
+- Dataset: [Ames Housing (Kaggle)](https://www.kaggle.com/datasets/prevek18/house-prices-dataset)
+- Libraries: scikit-learn, pandas, seaborn, matplotlib
+
+---
+
+## 🚀 Future Improvements
+
+- Try regularized models (Ridge, Lasso)
+- Feature engineering (log transforms, interactions)
+- Use cross-validation to avoid overfitting
+- Build an interactive dashboard (e.g., Streamlit or Dash)
+
+---
+
+## 📬 Questions?
+
+If you have any questions, ideas, or want to collaborate, feel free to reach out or open an issue!
+
+
+
 
