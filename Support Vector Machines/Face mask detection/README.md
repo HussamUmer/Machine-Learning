@@ -32,6 +32,8 @@ The dataset is balanced, with approximately the same number of images for both c
 🧾 Note: Due to the large size of the dataset, model training can be computationally intensive and time-consuming,
 especially without a GPU.
 
+Dataset Link:[Face Mask Detection 12K Images Dataset](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)
+
 ---------------------------------------------------------------------------------------------------------------------
 
 ## 🛠️ Project Workflow
@@ -68,12 +70,6 @@ especially without a GPU.
 ---------------------------------
 
      ✅ Accuracy: 91.25%
-     📄 Classification Report:
-
-            Class	      Precision	 Recall	F1-Score
-           ---------    ---------- ------- ----------
-          With Mask	      0.94	     0.88	  0.91
-          Without Mask	 0.89	   0.94	 0.92
 
 The model performs very well on both classes, with slightly better recall for "Without Mask" and better precision
 for "With Mask".
