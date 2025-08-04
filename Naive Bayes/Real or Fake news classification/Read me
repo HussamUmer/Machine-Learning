@@ -1,22 +1,22 @@
-📰 Fake News Detection with Naive Bayes
-==========================================
+# 📰 Fake News Detection with Naive Bayes
+
 In today's information-rich world, separating fact from fiction has never been more crucial. This project tackles
 the challenge of "fake news detection" using the "ISOT Fake and Real News Dataset", applying natural language
 processing (NLP) techniques and a Naive Bayes classifier to accurately identify misleading or false news articles.
 
 -------------------------------------------------------------------------------------------------------------------
 
-🔍 Project Overview
-====================
-- **Algorithm Used: Multinomial Naive Bayes
-- **Dataset: [ISOT Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
-- **Problem Type: Binary Text Classification (Fake vs Real)
-- **Goal: Train a model that can automatically determine if a given news article is fake or real based on its content.
+## 🔍 Project Overview
+
+- Algorithm Used: Multinomial Naive Bayes
+- Dataset: [ISOT Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+- Problem Type: Binary Text Classification (Fake vs Real)
+- Goal: Train a model that can automatically determine if a given news article is fake or real based on its content.
 
 --------------------------------------------------------------------------------------------------------------------------
 
-🧰 What’s Inside?
-=====================
+## 🧰 What’s Inside?
+
 - 🧹 Text cleaning & preprocessing: Lowercasing, punctuation removal, digit filtering, whitespace cleanup.
 - 📊 Exploratory Data Analysis (EDA):
   - Class distribution plots
@@ -27,20 +27,20 @@ processing (NLP) techniques and a Naive Bayes classifier to accurately identify 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-📊 Model Performance
-=====================
+## 📊 Model Performance
+
 After training and evaluating the model on 8,980 news articles, we achieved the following:
 - ✅ Accuracy: 93.47%
 
 🔸 Class-wise Breakdown:
-=========================
-- **Fake News**:
+
+- Fake News:
 -----------------
   - Precision: 94%  
   - Recall: 93%  
   - F1-Score: 94%
 
-- **Real News**: 
+- Real News: 
 -----------------
   - Precision: 93%  
   - Recall: 94%  
@@ -50,8 +50,8 @@ The results reflect a well-balanced and high-performing model that generalizes w
 
 -------------------------------------------------------------------------------------------------------------------
 
-📁 Files in This Project
-=========================
+## 📁 Files in This Project
+
 - `Fake.csv` and `True.csv`: The source datasets for fake and real news articles.
 - `fake_news_detection.ipynb`: Complete Jupyter Notebook with all steps.
 - `naive_bayes_fake_news_model.pkl`: Trained Naive Bayes model.
@@ -60,15 +60,15 @@ The results reflect a well-balanced and high-performing model that generalizes w
 
 ---------------------------------------------------------------------------------------------------------------------
 
-🧠 Why Naive Bayes?
-====================
+## 🧠 Why Naive Bayes?
+
 Naive Bayes is lightweight, interpretable, and often performs surprisingly well in text classification problems.
 It's based on probabilistic reasoning and assumes word independence—making it fast and easy to deploy.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-🎯 Potential Improvements
-==========================
+## 🎯 Potential Improvements
+
 While the model performed quite well, further improvements could include:
 
 - Using more advanced vectorization (e.g., n-grams, word embeddings)
@@ -78,8 +78,8 @@ While the model performed quite well, further improvements could include:
 
 ------------------------------------------------------------------------------------------------------------------------
 
-🙌 Final Thoughts
-==================
+## 🙌 Final Thoughts
+
 This project is a great example of how classical machine learning combined with solid preprocessing can still deliver 
 strong results in NLP tasks. The balance in class performance and the overall accuracy suggest that the model could be 
 a helpful tool in combating misinformation online.
