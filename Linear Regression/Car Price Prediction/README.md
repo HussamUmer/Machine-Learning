@@ -27,6 +27,9 @@ A dataset containing various car features like:
 - Car body, dimensions, drive wheels
 - ...and finally, **price** (our target)
 
+Here is the dataset link :
+[Car Price Prediction Multiple Linear Regression](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
+
 ---
 
 ## 📈 Model Performance
@@ -55,7 +58,4 @@ All visuals are available inside the notebook and saved in the `/output/visualiz
 
 ---
 
-
-
-## 📂 Project Structure
 
