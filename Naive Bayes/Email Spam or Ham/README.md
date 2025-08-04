@@ -1,13 +1,13 @@
-💌 Email Spam Detection using Naive Bayes
-==========================================
+# 💌 Email Spam Detection using Naive Bayes
+
 Welcome to the Email Spam Detection project! In this notebook, we take a classic NLP (Natural Language Processing)
 problem and use a Naive Bayes classifier to predict whether a given email is spam or not. The goal is to train a 
 reliable and efficient model that helps filter out spam messages from our inbox.
 
 -------------------------------------------------------------------------------------------------------------------
 
-🧠 What This Project Covers
-============================
+## 🧠 What This Project Covers
+
 ** A real-world labeled dataset of emails (ham vs spam)
 ** Text preprocessing using NLP techniques
 ** Visual exploration of the most common words in spam and non-spam emails
@@ -19,8 +19,13 @@ reliable and efficient model that helps filter out spam messages from our inbox.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-📊 Model Evaluation Summary
-============================
+## ✅ Dataset Used
+
+Here is the dataset link:
+[SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+
+## 📊 Model Evaluation Summary
+
 The model performed very well on the unseen test set. Here's a breakdown of the performance:
 ✅ Accuracy: 95.16% — This means the model correctly classified about 95 out of every 100 emails.
 
@@ -53,8 +58,8 @@ Weighted Average (accounts for class imbalance):
 
 ---------------------------------------------------------------------------------------------------------------
 
-🧾 Key Takeaways
-=================
+## 🧾 Key Takeaways
+
 ** The model is highly accurate, with very few false positives or negatives.
 ** It has a perfect precision score on spam emails, meaning it's very cautious when labeling something as spam.
 ** There's some room to improve recall for spam detection (catching more spam), possibly by adjusting thresholds 
@@ -63,8 +68,8 @@ or using ensemble methods.
 
 -----------------------------------------------------------------------------------------------------------------
 
-📦 What’s Inside
-=================
+## 📦 What’s Inside
+
 This project includes:
 
 ** Cleaned and preprocessed email dataset
