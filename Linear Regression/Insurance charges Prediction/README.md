@@ -1,4 +1,4 @@
-🏥 Medical Insurance Cost Prediction
+### 🏥 Medical Insurance Cost Prediction
 
 This project predicts a person's annual medical insurance charges based on factors like their age,
 BMI, smoking habits, and more.
