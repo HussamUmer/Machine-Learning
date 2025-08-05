@@ -29,8 +29,8 @@ Predict how much a person will pay for medical insurance.
 - 📊 Features: Age, BMI, number of children, smoking status, region, etc.  
 - 🔍 Highlights: Feature encoding, visualization, multivariate regression
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb
-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb))
 
 ---
 
@@ -41,8 +41,7 @@ Predict student exam scores based on hours studied.
 - 📊 Features: Hours studied  
 - 🔍 Highlights: Simple linear regression, scatter plot, perfect for beginners
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb))
+
 ---
 
 ### 3. 🏠 House Price Prediction  
@@ -63,8 +62,9 @@ Estimate the resale value of used cars.
 - 📊 Features: Year, fuel type, kilometers driven, seller type, etc.  
 - 🔍 Highlights: One-hot encoding, feature engineering, evaluation metrics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb
+)
+
 
 ---
 
