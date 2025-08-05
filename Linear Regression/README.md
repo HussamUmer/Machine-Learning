@@ -22,25 +22,25 @@ We use `sklearn.linear_model.LinearRegression` across all projects.
 
 ## 📁 Projects Included
 
-### 1. 🎯 Medical Insurance Cost Prediction  
+### 1. 🏥 Medical Insurance Cost Prediction  
 Predict how much a person will pay for medical insurance.
 
 - 📄 Dataset: *Medical Cost Personal Dataset*  
 - 📊 Features: Age, BMI, number of children, smoking status, region, etc.  
-- 🔍 Highlights: Feature encoding, visualization, multivariate regression
+- 🔍 Highlights: Feature encoding, visualization, multivariate regression  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb)
 
 ---
 
-### 2. 📘 Student Scores Prediction  
+### 2. 📘 Student Score Prediction  
 Predict student exam scores based on hours studied.
 
 - 📄 Dataset: *Student Study Hours Dataset*  
 - 📊 Features: Hours studied  
-- 🔍 Highlights: Simple linear regression, scatter plot, perfect for beginners
+- 🔍 Highlights: Simple linear regression, scatter plot, perfect for beginners  
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Student%20Score%20Prediction/Student_Score_Prediction.ipynb)
 
 ---
 
@@ -49,9 +49,9 @@ Predict housing prices based on location and size.
 
 - 📄 Dataset: *House Price India Dataset*  
 - 📊 Features: Area, bedrooms, bathrooms, location, etc.  
-- 🔍 Highlights: Multivariate regression, correlation heatmap, model evaluation
+- 🔍 Highlights: Multivariate regression, correlation heatmap, model evaluation  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/House%20Price%20Prediction/House_Price_Prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/House%20Price%20Prediction/House_Price_Prediction.ipynb)
 
 ---
 
@@ -60,10 +60,15 @@ Estimate the resale value of used cars.
 
 - 📄 Dataset: *CarDekho Car Dataset*  
 - 📊 Features: Year, fuel type, kilometers driven, seller type, etc.  
-- 🔍 Highlights: One-hot encoding, feature engineering, evaluation metrics
+- 🔍 Highlights: One-hot encoding, feature engineering, evaluation metrics  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb
-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb)
+
+
+
+
+
+
 
 
 ---
