@@ -99,4 +99,4 @@ These projects give you hands-on experience in:
 
 ---
 
-> 📌 Tip: Naive Bayes assumes feature independence — not always true, but often **good enough** in practice.
+
