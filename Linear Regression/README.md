@@ -41,7 +41,7 @@ Predict student exam scores based on hours studied.
 - 📊 Features: Hours studied  
 - 🔍 Highlights: Simple linear regression, scatter plot, perfect for beginners
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/your-username/your-repo/blob/main/Linear%20Regression/Student_Scores_Prediction.ipynb](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb))
 
 ---
 
@@ -52,7 +52,7 @@ Predict housing prices based on location and size.
 - 📊 Features: Area, bedrooms, bathrooms, location, etc.  
 - 🔍 Highlights: Multivariate regression, correlation heatmap, model evaluation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/your-username/your-repo/blob/main/Linear%20Regression/House_Price_Prediction.ipynb](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/House%20Price%20Prediction/House_Price_Prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/House%20Price%20Prediction/House_Price_Prediction.ipynb))
 
 ---
 
@@ -63,7 +63,7 @@ Estimate the resale value of used cars.
 - 📊 Features: Year, fuel type, kilometers driven, seller type, etc.  
 - 🔍 Highlights: One-hot encoding, feature engineering, evaluation metrics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/your-username/your-repo/blob/main/Linear%20Regression/Car_Price_Prediction.ipynb](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Insurance%20charges%20Prediction/Medical_Cost_Prediction.ipynb))
 
 ---
 
