@@ -98,4 +98,3 @@ Linear Regression builds your core understanding of how machine learning works:
 
 ---
 
-> Replace each `github/your-username/your-repo/...` link with the actual path to your `.ipynb` files on GitHub to make the Colab buttons functional.
