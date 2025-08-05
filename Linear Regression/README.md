@@ -29,7 +29,8 @@ Predict how much a person will pay for medical insurance.
 - 📊 Features: Age, BMI, number of children, smoking status, region, etc.  
 - 🔍 Highlights: Feature encoding, visualization, multivariate regression
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/your-username/your-repo/blob/main/Linear%20Regression/Medical_Insurance_Cost_Prediction.ipynb](https://github.com/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/Machine-Learning/blob/main/Linear%20Regression/Car%20Price%20Prediction/Car_price_prediction.ipynb
+)
 
 ---
 
