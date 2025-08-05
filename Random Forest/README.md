@@ -80,4 +80,4 @@ No prior ML experience needed — everything is explained step-by-step.
 
 ---
 
-> 🚀 Tip: Random Forests are great for **baseline models** — start here before moving to complex ensembles!
+
