@@ -91,4 +91,4 @@ These projects will help you:
 
 ---
 
-> ✅ Tip: Be sure to explore the visualizations and evaluation plots — they help you deeply understand how Logistic Regression makes decisions.
+
