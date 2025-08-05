@@ -80,4 +80,3 @@ These projects will help you:
 
 ---
 
-> 🌳 Tip: Try plotting the decision tree with `plot_tree()` to see exactly how the model splits your data.
